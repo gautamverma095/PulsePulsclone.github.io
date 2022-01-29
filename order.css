@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background-color: whitesmoke;
+  }
+  #notificationBar{
+      width: 100%;
+      height: 70px;
+      background-color: #16ac99;
+      position: fixed;
+      z-index: 10;
+  }
+  
+  #notificationBar>div{
+      width: 65%;
+      margin: auto;
+      height: 80%;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+  }
+  #notificationBar>div>div>div{
+      display: flex;
+      border: 1px solid white;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 12px;
+      color: white;
+  }
+  
+  #navLocation{
+      cursor: pointer;
+  }
+  
+  #rightNav{
+      display: flex;
+  }
+  i+p{
+      margin-left: 4px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+    color: black;
+  }
+  .popupContent{
+      padding: 20px;
+  }
+  #search{
+      width:100%;
+      margin-left: 20px;  
+      height: 30px;
+      margin-bottom: 30px;
+  }
+  .formInput{
+      width: 100%;
+      height: 30px;
+      margin-bottom:30px;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  form{
+      height: 220px;
+      overflow-y: scroll;
+  }
+  #popupButton{
+      width: 100%;
+      height: 50px;
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: #f9ae42;
+      border: 2px solid #f9ae42;
+      border-radius: 3px;
+      color: white;
+      font-size: 20px;
+  }
+  a{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  /* order Part */
+  .order{
+      display:flex;
+      padding: 100px 100px 0px 100px;
+      width: 60%;
+      margin: auto; 
+  }   
+  .icon{
+    padding: 10px;
+    text-align: center;
+    color:gray;
+  }
+  .order > p{
+      color: #16ac99;
+      font-weight: 900;
+      font-size: 24px;
+  }
+ b{
+     color: #007bff;;
+ }
+ b:hover{
+    color: rgb(23, 23, 214);;
+ }
+ .order > div{
+   margin-top: 50px;
+   margin-left: 5px;
+ }
+ 
+ .order >div> img{
+   margin-left: 85px;
+   height: 300px;
+ }
+  #btn{
+      background-color: #f9ae42;
+      color: white;
+      padding: 10px 5px;
+      border: none;
+      cursor: pointer;
+      width: 15%;
+      opacity: 0.9;
+      font-size: 20px;
+      border-radius: 4px;
+      margin-left: 600px;
+      margin-top: 15px;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 20px;
+  }
+  #btn:hover {
+      opacity:1;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* footer information */
+  
+  #information{
+      height: 300px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      text-align: center;
+      margin-top: 4%;
+    }
+    
+    
+    #footerMainDiv{
+      width: 99.50%;
+      height: auto;
+      border: 1px solid transparent;
+      background-color: white;
+  }
+  
+  #footerDiv{
+      width: 65%;
+      height: auto;
+      margin: auto;
+      margin-top: 30px;
+  }
+  #menuDivs{
+      
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  }
+  #socialMedia{
+      display: flex;
+      justify-content:right;
+  }
+  #socialMedia>div{
+      font-size: 40px;
+      margin-right: 20px;
+      color: grey;
+      cursor: pointer;
+  }
+  #menuDivs>div>h4{
+      padding-left: 10px;
+      margin-bottom: 10px;
+      color: #272727;
+  }
+  #paymentsDiv{
+      width: 80%;
+      margin: auto;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      justify-content: center;
+      grid-gap: 10px;
+  }
+  #paymentsDiv>div{
+      border: 1px solid grey;
+      width: 60px;
+      height: 30px;
+      padding: 2px;
+      border-radius: 5px;
+      text-align: center;
+      padding-top:5px;
+  }
+  #paymentsDiv>div:last-child>img{
+     width: 25px;
+     height: 25px;
+  }
+  .lazy{
+      width: 80%;
+  }
+  
+  #aboutDiv>p{
+      margin: 15px;
+  }
+  #aboutDiv{
+      color: grey;
+      line-height: 20px;
+      margin-bottom: 20px;
+  }
+  #copyrightDiv{
+      color: grey;
+      margin: 15px;
+      text-align: center;
+  }
+  .list-unstyled {
+      padding-left: 0;
+      list-style: none;
+  }
+  .list-unstyled>li{
+      padding-bottom: 10px;
+  }
+  .list-unstyled>li>a{
+      color: grey;
+      text-decoration: none;
+  }

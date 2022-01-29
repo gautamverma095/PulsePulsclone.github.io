@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="labTest1.css">
+  <title>
+    Pulse Pharmacy | Order Medicines from India&#39;s most-trusted Pharmacy
+
+  </title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="https://www.pulseplus.in/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+  <div id="notificationBar">
+    <div>
+      <div>
+        <a href="landing_page.html"> <img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy-trans.png"
+            alt="Pulse Plus" height="50px" /></a>
+      </div>
+      <div id="rightNav">
+        <div id="navLocation">
+          <i class="fa fa-map-marker"></i>
+          <p>New Delhi</p>
+          <div id="locationSelector" class="overlay">
+            <div class="popup">
+              <div>
+                <img src="https://www.pulseplus.in/content/images/icons/select-city-header.png" alt="City Image"
+                  width="100%">
+              </div>
+              <div class="popupContent">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  <div style="display: flex"><i class="fa fa-search"></i></span><input type="text"
+                      placeholder="Search Your City" id="search">
+                  </div>
+                  <form>
+                    <div class="formInput">
+                      <input type="radio" value="New Delhi">
+                      <label>New Delhi</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Mumbai">
+                      <label>Mumbai</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Bengaluru">
+                      <label>Bengaluru</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Kolkata">
+                      <label>Kolkata</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Chennai">
+                      <label>Chennai</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Noida">
+                      <label>Noida</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Pune">
+                      <label>Pune</label>
+                    </div>
+                    <div class="formInput">
+                      <input type="radio" value="Hyderabad">
+                      <label>Hyderabad</label>
+                    </div>
+                  </form>
+                  <button id="popupButton">Apply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="login.html" style="color:white ; text-decoration: none">Login </a>/<a href="signup.html"
+            style="color:white ; text-decoration: none">Sign Up</a>
+          <div id="cartAdd"><a href="cart.html"><i class="fa fa-shopping-bag" style="font-size:20px ;color:white"> <br><span
+                id="totalItems"></span></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- starting of search bar -->
+  <div class="firstHalf">
+    <div id="searchBar">
+      <input class="searchText" type="text" placeholder="Search lab test. E.g. CBC, TSH, etc" />
+      <button id="searchIcon" type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <!-- ending of search bar -->
+
+    <!-- starting of popular tests box -->
+
+    <div id="popularTest">
+      <div class="testHeading">
+        <h2>Popular tests</h2>
+      </div>
+      <div class="typesofTest">
+        <div>
+          <a href="" class="labTest">
+            <span>CBC</span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="labTest">
+            <span>Thyroid Profile</span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="labTest">
+            <span>Hba1C - Hemoglobin</span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="labTest">
+            <span>Cholestrol - Lipid Profile</span>
+          </a>
+        </div>
+        <div>
+          <a href="" class="labTest">
+            <span>Premartial Profile</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ending of popular tests box -->
+
+    <!-- starting of master help Checkups images -->
+
+    <div id="masterCheckup">
+      <div class="leftCheckupbox">
+        <div>Master health checkups at your home anytime</div>
+        <div>No queues. No travel. Everything done at home</div>
+        <div id="checkup4box">
+          <div class="checkupBoxone">
+            <div class="checkupImg">
+              <img src="https://www.pulseplus.in/content/images/lab/choose-package.png" alt="" width="100%"
+                height="100%" />
+            </div>
+            <div class="checkupText">
+              <p>Choose a package</p>
+            </div>
+          </div>
+          <div class="checkupBoxone">
+            <div class="checkupImg">
+              <img src="https://www.pulseplus.in/content/images/lab/select-date.png" alt="" width="100%"
+                height="100%" />
+            </div>
+            <div class="checkupText">
+              <p>Select date and time</p>
+            </div>
+          </div>
+          <div class="checkupBoxone">
+            <div class="checkupImg">
+              <img src="https://www.pulseplus.in/content/images/lab/sample-collected.png" alt="" width="100%"
+                height="100%" />
+            </div>
+            <div class="checkupText">
+              <p>Sample is collected from your home</p>
+            </div>
+          </div>
+          <div class="checkupBoxone">
+            <div class="checkupImg">
+              <img src="https://www.pulseplus.in/content/images/lab/report-email.png" alt="" width="100%"
+                height="100%" />
+            </div>
+            <div class="checkupText">
+              <p>Report is emailed to you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="checkupImgbig">
+        <img src="doctor.jpg" alt="loading" width="100%" height="100%">
+      </div>
+    </div>
+    <!-- ending of master help Checkups -->
+
+    <!-- starting three of master help Checkups -->
+
+    <div id="mainContent">
+
+    </div>
+    <div>
+      <a href="ProductPage.html" class="goToProduct">
+        <span>Go To Product Page</span>
+      </a>
+    </div>
+  </div>
+  <!-- ending of first half -->
+  <hr style="margin-left: 3%;">
+  <!-- starting of At-Home Sample Pickup -->
+  <div class="secondHalf">
+    <div id="homeSample">
+      <div>
+        <div class="homesampleImg">
+          <img src="https://www.pulseplus.in/content/images/lab/pickup.png" alt="" height="100%">
+        </div>
+        <div class="homesampleText">
+          <h4>At-Home Sample Pickup</h4>
+        </div>
+      </div>
+      <div>
+        <div class="homesampleImg" id="imgForcenter">
+          <img src="https://www.pulseplus.in/content/images/lab/report.png" alt="" height="100%">
+        </div>
+        <div class="homesampleText">
+          <h4>Extensive Test Coverage</h4>
+        </div>
+      </div>
+      <div>
+        <div class="homesampleImg" id="imgForcenter">
+          <img src="https://www.pulseplus.in/content/images/lab/nabl.png" alt="" height="100%">
+        </div>
+        <div class="homesampleText">
+          <h4>NABL Accredited Labs</h4>
+        </div>
+      </div>
+      <div>
+        <div class="homesampleImg">
+          <img src="https://www.pulseplus.in/content/images/lab/doctor.png" alt="" height="100%">
+        </div>
+        <div class="homesampleText">
+          <h4>Free Doctor Opinion*</h4>
+        </div>
+      </div>
+    </div>
+    <!-- ending of At-Home Sample Pickup -->
+    <!-- starting of Information -->
+    <div id="information">
+      <div>
+        <h5>INFORMATION</h5>
+        <p>About Pulse Pharmacy</p>
+        <p>Terms & Conditions</p>
+        <p>Offers</p>
+        <p>Blog</p>
+        <p>Apply for API</p>
+      </div>
+      <div>
+        <h5>BUY ONLINE</h5>
+        <p>Browse by Category</p>
+        <p>Browse by A-Z</p>
+        <p>Upload Prescription</p>
+        <p>Returns & Refund Policy</p>
+        <p>Shipping Policy</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div>
+        <h5>CONTACT</h5>
+        <p> <i class="fa fa-whatsapp"></i> Send us a Message </p>
+        <p><i class="fa fa-envelope"></i> sales@pulsepharmacy.in</p>
+        <p> <i class="fa fa-phone"></i> 7795600600</p>
+        <p>194, NSR Rd, Saibaba Colony,</p>
+        <p>Coimbatore - 641041</p>
+      </div>
+      <div id="faceInsta">
+        <i style="font-size:24px" class="fa">&#xf09a;</i>
+        <i style="font-size:24px" class="fa">&#xf16d;</i>
+        <i style="font-size:24px" class="fa">&#xf099;</i>
+      </div>
+    </div>
+    
+    <div class="logo">
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-9.png" alt="" height="60%"
+          width="80%"></div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-1.png" alt="" height="70%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-2.png" alt="" height="100%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-3.png" alt="" width="100%"
+          height="80%"></div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-4.png" alt="" height="100%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-5.png" alt="" height="90%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-6.png" alt="" height="90%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-7.png" alt="" height="80%">
+      </div>
+      <div class="logoImg"><img src="https://www.pulseplus.in/content/images/payment/pay-8.png" alt="" height="100%">
+      </div>
+    </div>
+
+    <div class="lastContent">
+      <h6>About Pulse Pharmacy</h6>
+      <p>Pulse Pharmacy is a leading <span style="font-weight: 700;">Online Pharmacy in India </span> that offers
+        prescription medicines, OTC products & generic medications all over India. Our aim at Pulse Pharmacy is to
+        ensure health to all the individuals, and deliver healthcare commerce in a personalized way. We make simple and
+        user-friendly way for people to buy the prescribed medicines online from anywhere in India and can buy at any
+        time at best deals and prices.</p>
+
+      <p>Pulse Pharmacy simplifies the search for needed medicines and to <span style="font-weight: 700;">order
+          medicines onlines.</span> Our priority is to satisfy the customer and to build the trust factor by providing
+        medicines packed by qualified & experienced pharmacists from our own & operated outlets.</p>
+
+      <p>In our current world, life-saving medications became costly and, so we have opened a gate to an opportunity
+        that saves your money on medications. You can buy or order medicines particularly generic medicine, OTC medicine
+        & prescription medicines at a cheaper price at the convenience of your home.</p>
+
+      <p>Pulse Pharmacy is the best Online Pharmacy in India, that delivers medicines from 100% owned and operated
+        outlets. You can use the brand name to search the medicine you prefer to <span style="font-weight: 700;"> order
+          medicine online.</span></p>
+
+      <p> <b>Note: </b>We don't process requests for Schedule X and other habit forming drugs, due to compliance with
+        Drugs and Cosmetics Act of India. You need to upload a valid prescription from a registered medical practitioner
+        while placing an order for Schedule H and H1 drugs. </p>
+    </div>
+    <div class="lastLine">©️ 2021 Pulse Pharmacy. All Rights Reserved</div>
+
+  </div>
+
+</body>
+
+</html>
+
+
+<script src="labTest1.js">
+
+</script>

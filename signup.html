@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Pharmarcy | User Login</title>
+    <link rel="icon" href="https://www.pulseplus.in/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer></script>
+</head>
+
+<body>
+    <div id="card">
+        <div class="image">
+            <img src="https://www.pulseplus.in/content/images/icons/logo-pulse-pharmacy.png" alt="pulse image" class="">
+        </div>
+
+        <form id="loginForm">
+            <h2>Signup</h2>
+            <label for="">Your name</label><br>
+            <input type="text" id="user" placeholder="enter username" /><br><br>
+            <label for="">Mobile Number</label><br>
+            <div id="number">
+                <div class="contry"><span>+91</span> </div>
+                <input type="mobile" id="mobile" placeholder="Enter your mobile number" />
+            </div><br>
+            <label for="">Email</label><br>
+            <input type="email" id="email" placeholder="enter email" /><br><br>
+            <label for="">Password</label><br>
+            <input type="password" id="password" placeholder="enter password" /><br><br>
+            <div id="refBox">
+                <div class="code" onclick="openCode()"><a href="#ref">referral code?</a></div>
+                <input type="text" placeholder="Referral Code" id="ref" />
+            </div><br>
+            <button>Next</button><br>
+            <div class="policy">
+                <p>By clicking next, you agree with our <a href="">Privacy Policy</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

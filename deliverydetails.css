@@ -1,0 +1,359 @@
+#notificationBar{
+    width: 100%;
+    height: 70px;
+    background-color: #16ac99;
+    position: fixed;
+}
+
+#notificationBar>div{
+    width: 65%;
+    margin: auto;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#notificationBar>div>div>div{
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 12px;
+    color: white;
+}
+
+#navLocation{
+    cursor: pointer;
+}
+
+#rightNav{
+    display: flex;
+}
+i+p{
+    margin-left: 4px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 5px;
+  width: 500px;
+  position: relative;
+  color: black;
+}
+.popupContent{
+    padding: 20px;
+}
+#search{
+    width:100%;
+    margin-left: 20px;  
+    height: 30px;
+    margin-bottom: 30px;
+}
+.formInput{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+form{
+    height: 220px;
+    overflow-y: scroll;
+}
+#popupButton{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f9ae42;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color:#f5f8fa;
+}
+
+/* //main body style */
+#container{
+    width: 65%;
+    margin: auto;
+    height: auto;
+    padding-top: 80px;
+    background-color: white;
+}
+
+#mainDiv{
+    display: flex;
+    width: 100%;
+}
+#container>h2{
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leftDiv{
+    width: 650px;
+    padding: 15px;
+    color: grey;
+}
+#container input{
+    width: 99%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+#container textarea{
+    width: 99%;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid grey;    
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+#add2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+#add2~input{
+    width: 250px;
+}
+#bullets{
+    display: flex;
+}
+#bullets>input{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#bullets>input:first-child{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.rightDiv{
+    width: 350px;
+    margin-left: 20px;
+    color: grey;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#container form{
+    height: auto;
+    overflow: hidden;
+}
+h2{
+    color: #16ac99;
+}
+
+
+#proceedBtn{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #f9ae42;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+#proceedBtn:hover{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: #f9ae42;
+}
+
+#orderSummaryDiv{
+    width: 90%;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+#orderSummaryDiv>table{
+    width: 100%;
+}
+tbody>tr>td:last-child{
+    text-align: right;
+}
+tr{
+    height: 30px;
+}
+#noteInput{
+    height: 100px !important;
+}
+#applyCouponBtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+#applyCouponBtn>img{
+    width: 30px !important;
+    height: 30px  !important;
+    margin-top: 10px;
+}
+#applyCouponBtn>p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#freeOrderBtn{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: #f9ae42;
+    font-size: 16px;
+}
+
+/*footer*/
+#footerMainDiv{
+    width: 99.50%;
+    height: auto;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+#footerDiv{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+#menuDivs{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#socialMedia{
+    display: flex;
+    justify-content:right;
+}
+#socialMedia>div{
+    font-size: 40px;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+#menuDivs>div>h4{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+#paymentsDiv{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+}
+#paymentsDiv>div{
+    border: 1px solid grey;
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:5px;
+}
+#paymentsDiv>div:last-child>img{
+   width: 25px;
+   height: 25px;
+}
+.lazy{
+    width: 80%;
+}
+
+#aboutDiv>p{
+    margin: 15px;
+}
+#aboutDiv{
+    color: grey;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#copyrightDiv{
+    color: grey;
+    margin: 15px;
+    text-align: center;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-unstyled>li{
+    padding-bottom: 10px;
+}
+.list-unstyled>li>a{
+    color: grey;
+    text-decoration: none;
+}

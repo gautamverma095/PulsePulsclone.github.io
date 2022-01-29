@@ -1,0 +1,461 @@
+#notificationBar{
+    width: 100%;
+    height: 70px;
+    background-color: #16ac99;
+    position: fixed;
+}
+
+#notificationBar>div{
+    width: 65%;
+    margin: auto;
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#notificationBar>div>div>div{
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 12px;
+    color: white;
+}
+
+#navLocation{
+    cursor: pointer;
+}
+
+#rightNav{
+    display: flex;
+}
+i+p{
+    margin-left: 4px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 5px;
+  width: 500px;
+  position: relative;
+  color: black;
+}
+.popupContent{
+    padding: 20px;
+}
+#search{
+    width:100%;
+    margin-left: 20px;  
+    height: 30px;
+    margin-bottom: 30px;
+}
+.formInput{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+form{
+    height: 220px;
+    overflow-y: scroll;
+}
+#popupButton{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f9ae42;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color:#f5f8fa;
+}
+
+
+
+
+#container{
+    width: 65%;
+    margin: auto;
+    height: auto;
+    padding-top: 80px;
+}
+
+#mainDiv{
+    display: flex;
+    width: 100%;
+}
+
+#container>h2{
+    font-weight: normal;
+}
+
+#h2 + div{
+    display: flex;
+}
+.leftDiv{
+    width: 650px;
+}
+.rightDiv{
+    width: 350px;
+    margin-left: 20px;
+}
+
+.cartRow{
+    display: flex;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2px;
+}
+.firstDiv{
+    margin-right: 10px;
+}
+.secondDiv{
+    width: 480px;
+}
+
+.priceAndButtonDiv{
+    display: flex;
+    margin-top:10px;
+}
+.deleteBtn{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.divUnderThirdDiv{
+    display: flex;
+    border: 2px solid #16ac99;
+    font-size: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.divUnderThirdDiv+p{
+    margin-top:10px;
+}
+.divUnderThirdDiv>p{
+    margin-left:5px;
+    margin-right:5px;
+}
+.increaseQty{
+    background-color: #16ac99;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+    text-align: center;
+}
+.decreaseQty{
+    background-color: #16ac99;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+    text-align: center;
+}
+
+.prodBox{
+    width: 200px;
+    height: 95%;
+    border: 1px solid rgba(88, 88, 88, 0.349);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+.prodBox>div{
+    margin-top: 15px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+#proceedBtn{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #f9ae42;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+#proceedBtn:hover{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: #f9ae42;
+}
+
+#orderSummaryDiv{
+    width: 90%;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#orderSummaryDiv>table{
+    width: 100%;
+}
+tbody>tr>td:last-child{
+    text-align: right;
+}
+tr{
+    height: 30px;
+}
+#addBtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #16ac99;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: #16ac99;
+}
+
+#applyCouponBtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#applyCouponBtn>img{
+    width: 30px !important;
+    height: 30px  !important;
+    margin-top: 10px;
+}
+#applyCouponBtn>p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#freeOrderBtn{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: #f9ae42;
+    font-size: 16px;
+}
+#productsSlider{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    overflow-x: scroll;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#addMedicineBtn{
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    padding-left: 20px;
+    color: teal;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#bgImageDiv{
+    width: 300px;
+    height:auto;
+    margin: auto;
+    margin-top: 0px;
+}
+#bgImageDiv img{
+    height: 300px !important;
+}
+#bgImageDiv>:nth-child(2){
+    width: 60%;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f9ae42;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+#bgImageDiv>:nth-child(2):hover{
+    background-color: white;
+    border: 2px solid #f9ae42;
+    border-radius: 3px;
+    color: #f9ae42;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#bgImageDiv>:nth-child(3){
+    width: 60%;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #16ac99;
+    border-radius: 3px;
+    color: #16ac99;
+    font-size: 20px;
+}
+#bgImageDiv>:nth-child(3):hover{
+    background-color: #16ac99;
+    border: 2px solid #16ac99;
+    border-radius: 3px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#container img{
+    height: 50px;
+}
+
+h2{
+    color: #16ac99;
+}
+
+
+/*footer*/
+#footerMainDiv{
+    width: 99.50%;
+    height: auto;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+#footerDiv{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+#menuDivs{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#socialMedia{
+    display: flex;
+    justify-content:right;
+}
+#socialMedia>div{
+    font-size: 40px;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+#menuDivs>div>h4{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+#paymentsDiv{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+}
+#paymentsDiv>div{
+    border: 1px solid grey;
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:5px;
+}
+#paymentsDiv>div:last-child>img{
+   width: 25px;
+   height: 25px;
+}
+.lazy{
+    width: 80%;
+}
+
+#aboutDiv>p{
+    margin: 15px;
+}
+#aboutDiv{
+    color: grey;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#copyrightDiv{
+    color: grey;
+    margin: 15px;
+    text-align: center;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-unstyled>li{
+    padding-bottom: 10px;
+}
+.list-unstyled>li>a{
+    color: grey;
+    text-decoration: none;
+}

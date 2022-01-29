@@ -1,0 +1,85 @@
+*{
+    font-family: "Roboto",sans-serif;
+}
+body{
+    background-image: url("https://www.pulseplus.in/content/images/icons/bg.png");
+}
+#main{
+    max-width: 380px;
+    margin: auto;  
+}
+#con{
+    margin: auto;
+    margin-top: 8%;
+    max-width: 480px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 0px;
+    background-color: white;
+}
+.image{
+    text-align: center;
+ }
+.icon {
+    padding: 10px;
+    background-color: #e9ecef;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+}
+#togglePassword{
+    
+    margin-left: -30px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+   
+}
+.subIcon{
+    width: 100%;
+    display: flex;
+}
+input{
+    padding: 6px 80px 4px 4px;
+    font-size: 14px;
+    width: 94%;
+    padding: 10px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+button{
+    background-color: #f9ae42;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    font-size: 16px;
+    margin-left: 25%;
+    border-radius: 4px;
+}
+button:hover {
+    opacity:1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    color: #494848;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50%;
+    color: #007bff;
+    font-weight: bold;
+}
+#email{
+    background-color: whitesmoke;
+}
+input:focus{
+    border-color: #007BFF;
+}
+a:hover{
+    color: rgb(23, 23, 214);
+
+}

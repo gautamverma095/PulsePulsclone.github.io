@@ -1,0 +1,115 @@
+*{
+    font-family: "Roboto",sans-serif;
+}
+body{
+    background-image: url("https://www.pulseplus.in/content/images/icons/bg.png");
+}
+#card{
+    margin: auto;
+    margin-top: 2%;
+    max-width: 480px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    background-color: white;
+}
+input{
+    padding: 6px 80px 4px 4px;
+    font-size: 16px;
+    width: 94%;
+    padding: 10px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+.image{
+   text-align: center;
+   cursor: pointer;
+}
+h2{
+    color: #494848;
+    text-align: center;
+}
+#loginForm{
+    max-width: 380px;
+    margin: auto;
+    
+}
+#number{
+    width: 100%;
+    display: flex;
+}
+.contry{
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    min-width: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #494848;
+    border-radius: 4px 0px 0px 4px;
+}
+#mobile{
+    padding: 6px 150px 4px 4px;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+a:hover{
+    color: rgb(23, 23, 214);
+
+}
+input:focus{
+    border-color: #007BFF;
+}
+button{
+    background-color: #f9ae42;;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 18px;
+    border-radius: 3px;
+    border-radius: 4px;
+}
+button:hover {
+    opacity:1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#refBox{
+    width: 100%;
+    display: flex;
+   
+}
+.code{
+    width: 40%;
+    color: #007BFF;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#ref{
+   width: 60%;
+   font-size: 16px;
+   border-radius: 3px;
+   border: 1px solid #ced4da;
+   padding: 10px;
+   visibility: hidden;
+   outline: none;
+}
+input[type=text]:focus{
+    border-color: #007BFF !important;
+}
+a{
+    color: #007BFF;
+    text-decoration: none; 
+}
+.policy{
+    color: #969292;
+}
+
